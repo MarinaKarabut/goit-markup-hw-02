@@ -52,7 +52,7 @@ body {
 }
 
 .info a {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -61,9 +61,6 @@ body {
 }
 .info a:hover,
 .info a:focus {
-    color: var(--accent-color);
-}
-.info .link.current {
     color: var(--accent-color);
 }
 
@@ -137,13 +134,17 @@ body {
 }
 
 .button-type {
+    color: var(--title-text-color);
+    background-color:  #F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
 }
 
-.button-type:hover{
-    color: var(--accent-color);
+.button-type:hover,
+.button-type:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
 }
 
 .address {
